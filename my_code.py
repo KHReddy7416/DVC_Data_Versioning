@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 data ={
-    "name":{"hemanth","harini","sharmila"},
+    "name":["hemanth","harini","sharmila"],
     "age":[22,23,24],
     "city":["chennai","bangalore","hyderabad"]
 }
