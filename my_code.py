@@ -11,6 +11,8 @@ data = {
 # Create DataFrame
 df = pd.DataFrame(data)
 
+new_row = {"name": "new_user", "age": 25, "city": "delhi"}
+df.loc[len(df.index)]=new_row
 # Directory path
 save_dir = "data"
 
